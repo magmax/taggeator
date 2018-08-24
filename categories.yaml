@@ -1,0 +1,21 @@
+apps:
+    - name: fubar
+      url: http://example.org/fubar
+      description: a fubar app
+      tags:
+      - foo1
+      - bar1
+
+    - name: foo
+      url: http://example.org/foo
+      description: a foo app
+      tags:
+      - foo1
+      - foo2
+
+    - name: bar
+      url: http://example.org/bar
+      description: a bar app
+      tags:
+      - bar1
+      - bar2

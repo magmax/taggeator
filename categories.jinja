@@ -1,0 +1,8 @@
+Simple output for tageator
+
+{% for item in categories | dictsort %}
+- {{ item[0] }}
+{%- for app in item[1] | sort(attribute='name') %}
+  - {{ app.name }}: {{ app.description }} ({{ app.url }})
+{%- endfor %}
+{% endfor %}
